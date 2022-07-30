@@ -1,0 +1,23 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Copying Discord...";
+    Text = ":)";
+    Duration = 120;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = 'Discord Link Copied!';
+    Text = "Aughhhh";
+    Duration = 120;
+})
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "[DISCORD]";
+    Text = "discord.gg/EzDK4AD5Yj";
+    Duration = 120;
+})
+
+
+if setclipboard then
+    setclipboard("discord.gg/EzDK4AD5Yj")
+end
